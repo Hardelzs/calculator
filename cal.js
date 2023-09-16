@@ -22,17 +22,6 @@ function addNumbers() {
   updateDisplay();
 }
 
-    function addition() {
-  // Split the input by "+" to get the numbers to add
-  const numbers = input.split('+');
-  
-  if (numbers.length === 2) {
-    const result = parseFloat(numbers[0]) + parseFloat(numbers[1]);
-    input = result.toString();
-    updateDisplay();
-  }
-}
-
 function evaluate() {
   try {
     const result = eval(input);
