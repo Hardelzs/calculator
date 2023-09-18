@@ -30,6 +30,10 @@
     border-radius: 5px;
 }
 
+.red {
+    background-color: rgb(255, 111, 111);
+}
+
 .display:hover {
     border-radius: 10px;
     transition: all ease-in .3s;
